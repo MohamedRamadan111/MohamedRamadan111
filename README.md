@@ -7,8 +7,6 @@
 <img src="https://img.shields.io/badge/Cairo%2C%20Egypt-1f6feb?style=flat-square"/>
 &nbsp;
 <img src="https://img.shields.io/badge/AI%20%2F%20ML%20Engineering-6e40c9?style=flat-square"/>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=MohamedRamadan111&style=flat-square&color=8b949e&label=Profile+Views"/>
 
 </div>
 
@@ -35,7 +33,7 @@ profile = {
 
 | Production Systems | Agent Frameworks | Retrieval Strategy | Observability Stack |
 |:------------------:|:----------------:|:------------------:|:-------------------:|
-| **4+** shipped end-to-end | **LangGraph · LangChain · Custom** | **Hybrid** Semantic + BM25 + Rerank | **Full** LangSmith + Prometheus |
+| **5+** shipped end-to-end | **LangGraph · LangChain · Custom** | **Hybrid** Semantic + BM25 + Rerank | **Full** LangSmith |
 
 </div>
 
@@ -43,17 +41,56 @@ profile = {
 
 ## Selected Projects
 
-<!-- ───────────────── Project 1 ───────────────── -->
+---
 
-<a href="https://github.com/MohamedRamadan111/code-assistant-rag-langgraph">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MohamedRamadan111&repo=code-assistant-rag-langgraph&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=8b949e"/>
-</a>
+### [FinEdge AI — Autonomous Procurement Engine](https://github.com/MohamedRamadan111/finedge-autonomous-procurement)
 
-**CodePilot AI — Agentic RAG Code Assistant**
+> Enterprise-grade multi-agent system that automates complex B2B supply-chain negotiations using decoupled AI personas (Buyer, Vendor, Auditor), LangGraph orchestration, persistent checkpointing, and full LangSmith observability.
+
+**Impact:** Reduces execution failures by ~25–30%, achieving <5% failure rate. Automates multi-party negotiation workflows end-to-end — replacing manual coordination across procurement teams.
+
+![LangGraph](https://img.shields.io/badge/LangGraph-6e40c9?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-1f6feb?style=flat-square&logo=docker&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-8b949e?style=flat-square)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+
+---
+
+### [Dynamic LLM Routing System](https://github.com/MohamedRamadan111/dynamic-llm-routing)
+
+> Cost-aware multi-model routing system using LangGraph and Transformer-based classification. Routes queries intelligently across model tiers based on complexity and cost constraints — without sacrificing quality.
+
+**Impact:** **75.6% cost reduction** and **48.6% latency improvement** vs GPT-4-only baseline. ~90–92% response quality maintained. Reduced redundant API calls by ~20% via semantic caching.
+
+![LangGraph](https://img.shields.io/badge/LangGraph-6e40c9?style=flat-square)
+![Transformers](https://img.shields.io/badge/Transformers-ffcc00?style=flat-square&logo=huggingface&logoColor=black)
+![Sentence-BERT](https://img.shields.io/badge/Sentence--BERT-2ea043?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_APIs-412991?style=flat-square&logo=openai&logoColor=white)
+
+---
+
+### [Qwen3-4B-FitGPT — Bilingual Fitness LLM](https://huggingface.co/MohamedRamadan111)
+
+> Custom bilingual (Arabic/English) fitness LLM via DARE-TIES model merging of Qwen3-4B variants + LoRA fine-tuning on ~7K curated samples. Production-ready inference with strict JSON-only outputs.
+
+**Impact:** ~35–40% improvement in structured response consistency. >95% valid structured responses across evaluation prompts.
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-ffcc00?style=flat-square&logo=huggingface&logoColor=black)
+![LoRA](https://img.shields.io/badge/LoRA_Fine--tuning-6e40c9?style=flat-square)
+![DARE-TIES](https://img.shields.io/badge/DARE--TIES_Merging-2ea043?style=flat-square)
+![Unsloth](https://img.shields.io/badge/Unsloth-1f6feb?style=flat-square)
+
+---
+
+### [CodePilot AI — Agentic RAG Code Assistant](https://github.com/MohamedRamadan111/code-assistant-rag-langgraph)
 
 > Hybrid retrieval system (Semantic + BM25 + RRF Reranking) with structured LangGraph reasoning for code generation, debugging, and refactoring — built for precision over large codebases.
 
-**Impact:** Reduces time-to-solution for complex debugging tasks through context-aware hybrid retrieval.
+**Impact:** ~20–25% top-k retrieval improvement over BM25 baseline. Reduces time-to-solution for complex debugging tasks through context-aware hybrid retrieval.
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-6e40c9?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -65,13 +102,7 @@ profile = {
 
 ---
 
-<!-- ───────────────── Project 2 ───────────────── -->
-
-<a href="https://github.com/MohamedRamadan111/Context-Aware-Conversational-Agent">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MohamedRamadan111&repo=Context-Aware-Conversational-Agent&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=8b949e"/>
-</a>
-
-**Context-Aware Conversational Agent**
+### [Context-Aware Conversational Agent](https://github.com/MohamedRamadan111/Context-Aware-Conversational-Agent)
 
 > LangChain ReAct agent that autonomously judges context, searches the web when needed, validates relevance, and delivers grounded responses — with Redis-backed memory for full session coherence.
 
@@ -84,48 +115,6 @@ profile = {
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Tavily](https://img.shields.io/badge/Tavily_Search-2ea043?style=flat-square)
 ![Gradio](https://img.shields.io/badge/Gradio-f97316?style=flat-square)
-
----
-
-<!-- ───────────────── Project 3 ───────────────── -->
-
-<a href="https://github.com/MohamedRamadan111/smart-contract-rag-assistant">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MohamedRamadan111&repo=smart-contract-rag-assistant&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=8b949e"/>
-</a>
-
-**Smart Contract RAG Assistant**
-
-> Zero-hallucination document analysis pipeline with LLM-as-a-Judge evaluation (DeepSeek R1), streaming API, contextual memory, and LangServe deployment — built for legal-grade accuracy.
-
-**Impact:** Delivers auditable, measurable accuracy on contract and compliance documents via automated eval loop.
-
-![LangChain+LCEL](https://img.shields.io/badge/LangChain+LCEL-2ea043?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0d9488?style=flat-square)
-![DeepSeek R1](https://img.shields.io/badge/DeepSeek_R1-1f6feb?style=flat-square)
-![LangServe](https://img.shields.io/badge/LangServe-6e40c9?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-f97316?style=flat-square)
-
----
-
-<!-- ───────────────── Project 4 ───────────────── -->
-
-<a href="https://github.com/MohamedRamadan111/finedge-autonomous-procurement">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MohamedRamadan111&repo=finedge-autonomous-procurement&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=8b949e"/>
-</a>
-
-**FinEdge AI — Autonomous Procurement Engine**
-
-> Enterprise-grade multi-agent system that automates complex B2B supply-chain negotiations using decoupled AI personas (Buyer, Vendor, Auditor), LangGraph orchestration, persistent checkpointing, and full LangSmith observability.
-
-**Impact:** Automates multi-party negotiation workflows end-to-end — replacing manual coordination across procurement teams.
-
-![LangGraph](https://img.shields.io/badge/LangGraph-6e40c9?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1f6feb?style=flat-square&logo=docker&logoColor=white)
-![LangSmith](https://img.shields.io/badge/LangSmith-8b949e?style=flat-square)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
 <br/>
 
@@ -145,6 +134,11 @@ Task Input  →  Planner Agent  →  Tool Router  →  LangGraph  →  Guardrail
 Query  →  Intent Classifier  →  Hybrid Retriever (Semantic + BM25 + RRF)  →  Reranker  →  Eval Loop
 ```
 
+**Dynamic LLM Routing**
+```
+Query  →  Complexity Classifier  →  Cost Router  →  Semantic Cache  →  Model Tier  →  Response
+```
+
 ---
 
 ## Technical Stack
@@ -158,6 +152,7 @@ Query  →  Intent Classifier  →  Hybrid Retriever (Semantic + BM25 + RRF)  �
 - LangChain · LangGraph · LangSmith
 - HuggingFace · Prompt Engineering
 - OpenAI · Anthropic · Gemini · DeepSeek
+- LoRA Fine-tuning · Model Merging
 
 </td>
 <td valign="top" width="33%">
@@ -172,14 +167,14 @@ Query  →  Intent Classifier  →  Hybrid Retriever (Semantic + BM25 + RRF)  �
 
 **MLOps · Infrastructure**
 - FastAPI · Docker · Kubernetes
-- MLflow · Airflow · Prometheus · Grafana
-- CI/CD · GitHub Actions · Linux
+- CI/CD
 - LangSmith Observability
 
 </td>
 </tr>
 </table>
 
+---
 
 ## Connect
 
